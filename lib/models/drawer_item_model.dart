@@ -1,6 +1,6 @@
-class DraweritemModel {
+class DrawerItemModel {
   final String title;
   final String image;
 
-  DraweritemModel({required this.title, required this.image});
+  DrawerItemModel({required this.title, required this.image});
 }

@@ -5,10 +5,11 @@ import 'package:responsive_dash_board/utils/app_styles.dart';
 
 class DrawerItem extends StatelessWidget {
   const DrawerItem({super.key, required this.draweritemModel});
-  final DraweritemModel draweritemModel;
+  final DrawerItemModel draweritemModel;
   @override
   Widget build(BuildContext context) {
     return Material(
+      color: Colors.white,
       child: ListTile(
         leading: SvgPicture.asset(draweritemModel.image),
         title: Text(
