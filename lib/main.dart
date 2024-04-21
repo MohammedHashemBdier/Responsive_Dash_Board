@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_dash_board/widgets/dash_board_desktop_layout.dart';
 
 void main() {
   runApp(const DashBoardApp());
@@ -11,8 +12,9 @@ class DashBoardApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Dash Board',
-      home: DashBoardApp(),
+      home: DashBoardDesktopLayout(),
     );
   }
 }
