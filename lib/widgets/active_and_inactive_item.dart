@@ -13,11 +13,14 @@ class InActiveDrawerItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      leading: SvgPicture.asset(draweritemModel.image),
-      title: Text(
-        draweritemModel.title,
-        style: AppStyles.styleMedium16,
+    return Material(
+      color: Colors.white,
+      child: ListTile(
+        leading: SvgPicture.asset(draweritemModel.image),
+        title: Text(
+          draweritemModel.title,
+          style: AppStyles.styleMedium16,
+        ),
       ),
     );
   }
@@ -33,16 +36,19 @@ class ActiveDrawerItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      leading: SvgPicture.asset(draweritemModel.image),
-      title: Text(
-        draweritemModel.title,
-        style: AppStyles.styleBoldr16,
-      ),
-      trailing: Container(
-        width: 4,
-        decoration: const BoxDecoration(
-          color: Color(0xFF4EB7F2),
+    return Material(
+      color: Colors.white,
+      child: ListTile(
+        leading: SvgPicture.asset(draweritemModel.image),
+        title: Text(
+          draweritemModel.title,
+          style: AppStyles.styleBoldr16,
+        ),
+        trailing: Container(
+          width: 4,
+          decoration: const BoxDecoration(
+            color: Color(0xFF4EB7F2),
+          ),
         ),
       ),
     );
