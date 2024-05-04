@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_dash_board/models/all_expansess_item_model.dart';
-import 'package:responsive_dash_board/utils/app_images.dart';
 import 'package:responsive_dash_board/widgets/all_expansess_header.dart';
-import 'package:responsive_dash_board/widgets/all_expensess_%20item.dart';
+import 'package:responsive_dash_board/widgets/all_expensess_items_list_view.dart';
 
 class AllExpansess extends StatelessWidget {
   const AllExpansess({super.key});
@@ -24,12 +22,7 @@ class AllExpansess extends StatelessWidget {
             SizedBox(
               height: 16,
             ),
-            AllExpansessItem(
-                itemModel: AllExpansessItemModel(
-                    image: Assets.imagesIncome,
-                    title: "Income",
-                    date: "April 2024",
-                    price: r"$20,129")),
+            AllExpensessItemsListView(),
           ],
         ),
       ),

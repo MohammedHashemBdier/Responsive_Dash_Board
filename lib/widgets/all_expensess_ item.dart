@@ -5,7 +5,7 @@ import 'package:responsive_dash_board/widgets/all_expansess_item_header.dart';
 
 class AllExpansessItem extends StatelessWidget {
   const AllExpansessItem({super.key, required this.itemModel});
-  final AllExpansessItemModel itemModel;
+  final AllExpensessItemModel itemModel;
   @override
   Widget build(BuildContext context) {
     return Container(

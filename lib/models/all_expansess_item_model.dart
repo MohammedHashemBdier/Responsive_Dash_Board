@@ -1,7 +1,7 @@
-class AllExpansessItemModel {
+class AllExpensessItemModel {
   final String image, title, date, price;
 
-  const AllExpansessItemModel({
+  const AllExpensessItemModel({
     required this.image,
     required this.title,
     required this.date,
