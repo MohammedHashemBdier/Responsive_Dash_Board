@@ -9,18 +9,15 @@ class AllExpansessHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.all(16),
-      child: Row(
-        children: [
-          Text(
-            "All Expansess",
-            style: AppStyles.styleSemiBold20,
-          ),
-          Expanded(child: SizedBox()),
-          RangeOptions(),
-        ],
-      ),
+    return const Row(
+      children: [
+        Text(
+          "All Expansess",
+          style: AppStyles.styleSemiBold20,
+        ),
+        Expanded(child: SizedBox()),
+        RangeOptions(),
+      ],
     );
   }
 }

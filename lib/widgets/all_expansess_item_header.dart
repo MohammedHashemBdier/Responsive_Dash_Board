@@ -18,7 +18,6 @@ class AllExpansessItemHeader extends StatelessWidget {
         Container(
           width: 60,
           height: 60,
-          padding: const EdgeInsets.all(14),
           decoration: ShapeDecoration(
             shape: const OvalBorder(),
             color: imageBackgroundColor ?? const Color(0xFFFAFAFA),
