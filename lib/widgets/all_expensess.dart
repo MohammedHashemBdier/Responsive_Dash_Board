@@ -8,19 +8,16 @@ class AllExpansess extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.all(20),
-      child: CustomBackgroundContainer(
-        padding: 20,
-        child: Column(
-          children: [
-            AllExpansessHeader(),
-            SizedBox(
-              height: 16,
-            ),
-            AllExpensessItemsListView(),
-          ],
-        ),
+    return const CustomBackgroundContainer(
+      padding: 20,
+      child: Column(
+        children: [
+          AllExpansessHeader(),
+          SizedBox(
+            height: 16,
+          ),
+          AllExpensessItemsListView(),
+        ],
       ),
     );
   }
