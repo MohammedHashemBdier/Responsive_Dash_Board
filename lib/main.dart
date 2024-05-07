@@ -11,10 +11,16 @@ class DashBoardApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF4EB7F2),
+        ),
+      ),
       debugShowCheckedModeBanner: false,
+      color: Colors.black26,
       title: 'Dash Board',
-      home: DashBoardDesktopLayout(),
+      home: const DashBoardDesktopLayout(),
     );
   }
 }
