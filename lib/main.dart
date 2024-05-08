@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_dash_board/widgets/dash_board_desktop_layout.dart';
+import 'package:responsive_dash_board/views/dash_board_view.dart';
 
 void main() {
   runApp(const DashBoardApp());
@@ -20,7 +20,7 @@ class DashBoardApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       color: Colors.black26,
       title: 'Dash Board',
-      home: const DashBoardDesktopLayout(),
+      home: const DashBoardView(),
     );
   }
 }
