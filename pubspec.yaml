@@ -31,6 +31,7 @@ dependencies:
   csv_storage: ^0.1.0
   cupertino_icons: ^1.0.6
   expandable_page_view: ^1.0.17
+  fl_chart: ^0.68.0
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.10+1
