@@ -8,19 +8,14 @@ class MyCardsAndTransctionHistorySection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
-      children: [
-        SizedBox(height: 40),
-        CustomBackgroundContainer(
-          child: Column(
-            children: [
-              MyCardsSection(),
-              Divider(height: 40, color: Color(0xffF1F1F1)),
-              TrasnctionHistory(),
-            ],
-          ),
-        ),
-      ],
+    return const CustomBackgroundContainer(
+      child: Column(
+        children: [
+          MyCardsSection(),
+          Divider(height: 40, color: Color(0xffF1F1F1)),
+          TrasnctionHistory(),
+        ],
+      ),
     );
   }
 }
