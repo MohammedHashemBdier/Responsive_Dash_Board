@@ -17,9 +17,13 @@ class InActiveDrawerItem extends StatelessWidget {
       color: Colors.white,
       child: ListTile(
         leading: SvgPicture.asset(draweritemModel.image),
-        title: Text(
-          draweritemModel.title,
-          style: AppStyles.styleMedium16(context),
+        title: FittedBox(
+          fit: BoxFit.scaleDown,
+          alignment: Alignment.centerLeft,
+          child: Text(
+            draweritemModel.title,
+            style: AppStyles.styleMedium16(context),
+          ),
         ),
       ),
     );
@@ -40,9 +44,13 @@ class ActiveDrawerItem extends StatelessWidget {
       color: Colors.white,
       child: ListTile(
         leading: SvgPicture.asset(draweritemModel.image),
-        title: Text(
-          draweritemModel.title,
-          style: AppStyles.styleBold16(context),
+        title: FittedBox(
+          fit: BoxFit.scaleDown,
+          alignment: Alignment.centerLeft,
+          child: Text(
+            draweritemModel.title,
+            style: AppStyles.styleBold16(context),
+          ),
         ),
         trailing: Container(
           width: 4,
