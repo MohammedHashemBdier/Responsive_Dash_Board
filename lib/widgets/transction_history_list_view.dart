@@ -13,13 +13,13 @@ class TransctionHistoryListView extends StatelessWidget {
         isWithdrawal: true),
     TransctionModel(
         title: 'Landing Page project',
-        date: '13 Apr, 2022 ',
-        amount: r'$20,129',
+        date: '5 Jun, 2023 ',
+        amount: r'$32,535',
         isWithdrawal: false),
     TransctionModel(
         title: 'Juni Mobile App project',
-        date: '13 Apr, 2022 ',
-        amount: r'$20,129',
+        date: '3 Oct, 2024 ',
+        amount: r'$50,000',
         isWithdrawal: false),
   ];
   @override
