@@ -20,7 +20,7 @@ class UserInfoListTile extends StatelessWidget {
             leading: SvgPicture.asset(userInfoModel.image),
             title: FittedBox(
               fit: BoxFit.scaleDown,
-              alignment: Alignment.centerLeft,
+              alignment: AlignmentDirectional.centerStart,
               child: Text(
                 userInfoModel.title,
                 style: AppStyles.styleSemiBold16(context),
@@ -28,7 +28,7 @@ class UserInfoListTile extends StatelessWidget {
             ),
             subtitle: FittedBox(
               fit: BoxFit.scaleDown,
-              alignment: Alignment.centerLeft,
+              alignment: AlignmentDirectional.centerStart,
               child: Text(
                 userInfoModel.subTitle,
                 style: AppStyles.styleRegular12(context),
